@@ -10,3 +10,16 @@ if (continha>15) {
 else{
     console.log("valor menor que 16");
 }
+// 
+let teste;
+let divisao =0;
+
+
+for (let index = 2; index <= 150; index +=1) {
+    if (index % 3 === 0) {
+        divisao +=1;
+    }
+}
+if (divisao === 50) {
+    console.log("mensagem secreta, cuidado!");
+}
