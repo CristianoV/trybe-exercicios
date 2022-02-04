@@ -15,7 +15,7 @@ h1{
     font-size: 40px;
     border: 1px solid black;
 }
-li{
+/* li{
     font-size: 20px;
 }
 #linguagens li:nth-of-type(1){
@@ -35,9 +35,9 @@ li{
 }
 #aliados li a:hover {
     font-weight: 700;
-  }
+  } */
   
-  #aliados li a:hover[href*="stackoverflow"] {
+  /* #aliados li a:hover[href*="stackoverflow"] {
     color: orange;
   }
   
@@ -55,4 +55,4 @@ li{
   
   #aliados li a:hover[href*="trybe"] {
     color: green;
-  }
+  } */
