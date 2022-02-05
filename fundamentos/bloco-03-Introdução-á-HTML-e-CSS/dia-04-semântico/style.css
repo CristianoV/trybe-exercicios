@@ -1,0 +1,50 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding-bottom: 100px;
+}
+p{
+    max-width: 60%;
+    margin: auto;
+}
+.navagacao{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 30px;
+}
+.descricao-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+}
+.imagem-descricao{
+    height: 150px;
+}
+img {
+    width: auto; 
+    max-height: 100%; 
+   }
+.classificacao{
+    display: flex;
+    flex-direction: column;
+}
+.classificacao ul{
+    display:inline-block
+
+}
+li{
+    display: block;
+}
+
+#teste{
+    justify-content: center;
+}
+.rodape{
+    display: flex;
+}
