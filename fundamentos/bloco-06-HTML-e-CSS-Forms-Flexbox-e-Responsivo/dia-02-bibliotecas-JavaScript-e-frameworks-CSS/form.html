@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="container">
+    <h1>
+      TrybeTrip
+    </h1>
+    <img id="imagemTribe" src="https://remotar.com.br/wp-content/uploads/2020/10/Trybe-200x200.jpg">
+  </header>
+  <form action="" method="get" class="container">
+    <section>
+      <section class="mb-3">
+        <label class="form-label" for="nome">Nome Completo: </label>
+        <input class="form-control" type="text" name="nome" id="nome" required maxlength="40" minlength="10">
+      </section>
+      <section class="mb-3">
+        <label class="form-label" for="email">Email: </label>
+        <input class="form-control" type="text" name="email" id="email" required maxlength="50" minlength="10">
+      </section>
+      <section>
+        <div>
+          <label for="">Destino Preferido:</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="viagem" id="por" value="portugal" required>
+          <label class="form-check-label" for="por">Portugal</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="viagem" id="nov" value="nova york" required>
+          <label class="form-check-label" for="nov">Nova York</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="viagem" id="can" value="canada" required>
+          <label class="form-check-label" for="can">Canada</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="viagem" id="acr" value="acre" required>
+          <label class="form-check-label" for="acr">Acre</label>
+        </div>
+      </section>
+      <section class="form-floating">
+        <label for="">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+        <textarea class="form-control" name="motivo" id="" required style="height: 100px" maxlength="500"></textarea>
+      </section>
+      <section class="espaço">
+        <label for="data">Qual a melhor data para realizar sua viagem?</label>
+        <input type="date" name="data" id="data" required>
+      </section>
+      <section class="espaço">
+        <label for="concordo1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <input class="form-check-input me-1" type="checkbox" name="concordo 1" id="concordo1" required>
+        <label for="concordo2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
+          futuros.</label>
+        <input class="form-check-input me-1" type="checkbox" name="concordo 2" id="concordo2">
+      </section>
+    </section>
+    <div class="espaço">
+      <button type="submit" class="btn btn-success">enviar</button>
+      <button type="reset" class="btn btn-danger">Apagar</button>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
